@@ -15,7 +15,7 @@ function App() {
       </div>
       <div className="wrapper">
         <BtnMenu/>
-        <Menu />
+        <Menu isOpen/>
         {textData.map((card, index) => (
           <Cards
             key={index}
