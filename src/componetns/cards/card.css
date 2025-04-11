@@ -1,0 +1,77 @@
+.box__wrapper {
+  width: 180px;
+  height: 240px;
+  border: 2px solid #494949;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0px 3px 10px #090909;
+  position: relative;
+  margin-top: 50px;
+  z-index: 2;
+  background-color: #f3f3f3e0;
+  background: -webkit-linear-gradient(90deg, #d5c5b9, #b9c9d5);
+  background: linear-gradient(180deg, #d1d1d147, #646c6561);
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: #f3f3f3c7;
+  margin-bottom: 10px;
+}
+
+.title::after {
+  position: relative;
+  left: -10px;
+  margin-top: 5px;
+  display: block;
+  content: '';
+  width: 177px;
+  height: 2px;
+  background-color: #a4a4a4;
+}
+
+.text {
+  text-align: center;
+}
+
+.box {
+  overflow-y: auto;
+  height: 180px;
+}
+
+.box::-webkit-scrollbar {
+  width: 0px;
+}
+
+.button {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  bottom: -65px;
+  right: 0;
+  left: 0;
+  margin: auto;
+  cursor: pointer;
+}
+
+.svg {
+  object-fit: cover;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  transition: all .4s ease-in-out;
+}
+
+.svg-show {
+
+  box-shadow: 0px 0px 5px 2px #ffffff;
+  object-fit: cover;
+  width: 50px;
+  height: 50px;
+
+}
+
+
