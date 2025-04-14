@@ -27,13 +27,15 @@ body {
 .wrapper {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
+  justify-items: center;
   row-gap: 25px;
   z-index: 1;
   margin-top: 55px;
 }
 
 .wrapper-taxi {
-  position: absolute;
-  top: -40px;
-  left: -175px;
+  display: flex;
+  justify-content: center;
+  column-gap: 27px;
+  margin-top: 90px;
 }

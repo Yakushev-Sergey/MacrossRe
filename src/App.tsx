@@ -1,4 +1,4 @@
-import BtnMenu from "./componetns/btnMenu/btnMenu"
+// import BtnMenu from "./componetns/btnMenu/btnMenu"
 import Cards from "./componetns/cards/card"
 import Menu from "./componetns/menu/menu"
 import Taxi from "./componetns/taxi/taxi"
@@ -10,12 +10,10 @@ function App() {
   return (
 
     <div className="container">
-      <div className="wrapper-taxi">
-        <Taxi />
-      </div>
+
       <div className="wrapper">
-        <BtnMenu/>
-        <Menu isOpen/>
+        {/* <BtnMenu/> */}
+        <Menu />
         {textData.map((card, index) => (
           <Cards
             key={index}
@@ -23,6 +21,9 @@ function App() {
             title={card.title}
           />
         ))}
+      </div>
+      <div className="wrapper-taxi">
+        <Taxi />
       </div>
     </div>
 

@@ -20,13 +20,17 @@ const Cards: React.FC<Props> = ({ title, description }) => {
 
   // добавление класса 
 
-  const [istoggle, setToggle] = useState<boolean>(true)
+  const [istoggle, setToggle] = useState<boolean>(false)
 
-  const addClass =  () => {
-    setToggle(!istoggle)
-    setTimeout(() => {
-      setToggle(istoggle)
-    }, 500)
+  const addClass = async () => {
+    try {
+      await setToggle(true)
+      setTimeout(() => {
+        setToggle(false)
+      }, 500)
+    } catch(err) {
+      alert ('Обнови страницу ')
+    }
   };
 
 
@@ -43,7 +47,7 @@ const Cards: React.FC<Props> = ({ title, description }) => {
           </div>
         </div>
         <div className={`button`} onClick={coppyClick }>
-          <img className={`svg ${istoggle ? '' : 'svg-show'}`} src={cardImg} onClick={() => {coppyClick(); addClass() }} />
+          <img className={`svg ${istoggle ? 'svg-show' : ''}`} src={cardImg} onClick={() => {coppyClick(); addClass() }} />
         </div>
       </div>
 

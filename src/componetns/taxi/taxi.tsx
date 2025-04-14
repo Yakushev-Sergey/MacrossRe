@@ -53,7 +53,7 @@ const Taxi: React.FC = () => {
 }
 
   let taxiLink = []
-  for (let i = 1; i <= 10; i++) {
+  for (let i = 1; i <= 9; i++) {
     taxiLink.push(
       <div className={`copp__wrapper ${isClickShow[i] && isLink[i] ? 'showTimeOut' : ''}`} key={i}>
 
