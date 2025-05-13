@@ -49,7 +49,7 @@ const Taxi: React.FC = () => {
         ...state,
         [inputId]: false,
       }))
-    }, 15000)
+    }, 120000)
 }
 
   let taxiLink = []
