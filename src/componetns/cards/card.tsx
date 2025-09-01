@@ -2,13 +2,14 @@
 import { useState } from 'react';
 import './card.css'
 import cardImg from './paw.png';
+import cardImgCrow from './mapleLeaf.png';
 
-type Props = {
-  title: string
+type CardsProps = {
   description: string;
+  title: string;
 }
 
-const Cards: React.FC<Props> = ({ title, description }) => {
+const Cards: React.FC<CardsProps> = ({description, title }) => {
 
   const coppyClick = async () => {
     try {
@@ -47,7 +48,7 @@ const Cards: React.FC<Props> = ({ title, description }) => {
         </div>
       </div>
       <div className={`button`} onClick={coppyClick}>
-        <img className={`svg ${istoggle ? 'svg-show' : ''}`} src={cardImg} onClick={() => { coppyClick(); addClass() }} />
+        <img className={`svg ${istoggle ? 'svg-show' : ''}`} src={cardImgCrow} onClick={() => { coppyClick(); addClass() }} />
       </div>
     </div>
 

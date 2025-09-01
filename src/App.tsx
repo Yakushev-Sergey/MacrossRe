@@ -2,7 +2,7 @@
 import Cards from "./componetns/cards/card"
 import Menu from "./componetns/menu/menu"
 import Taxi from "./componetns/taxi/taxi"
-import textData from './text.json'
+import {TextScript} from './text'
 
 function App() {
 
@@ -14,7 +14,7 @@ function App() {
       <div className="wrapper">
         {/* <BtnMenu/> */}
         <Menu />
-        {textData.map((card, index) => (
+        {TextScript.map((card, index) => (
           <Cards
             key={index}
             description={card.description}

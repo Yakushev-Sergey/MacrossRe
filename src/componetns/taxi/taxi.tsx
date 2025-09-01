@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState } from 'react'
 import taxiImg from './paw2.png'
+import taxiImgCrow from './dry-leaf.png'
 import './taxi.css'
 
 
@@ -57,11 +58,12 @@ const Taxi: React.FC = () => {
     taxiLink.push(
       <div className={`copp__wrapper ${isClickShow[i] && isLink[i] ? 'showTimeOut' : ''}`} key={i}>
 
-        <input className={`taxi__input ${isInputShow[i] ? 'show': ''}`} 
+        <input 
+        className={`taxi__input ${isInputShow[i] ? 'show': ''}`} 
         type="text" value={isLink[i] || ''} 
         onChange={(event) => handleChange(event, i)} />
 
-        <img className="copp__tax" src={taxiImg} onClick={() => {openLink(i); clickshowlink(i)}} />
+        <img className="copp__tax" src={taxiImgCrow} onClick={() => {openLink(i); clickshowlink(i)}} />
       </div>
     )
   }
