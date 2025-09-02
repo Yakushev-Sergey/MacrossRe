@@ -1,7 +1,7 @@
 
 
 import React, { useEffect, useState } from 'react'
-import taxiImg from './paw2.png'
+// import taxiImg from './paw2.png'
 import taxiImgCrow from './dry-leaf.png'
 import './taxi.css'
 
