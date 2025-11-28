@@ -18,6 +18,7 @@ body {
   font-weight: 600;
   font-style: normal;
   color: #000;
+  overflow: hidden;
   /* background-repeat: no-repeat; */
 
   /* background: linear-gradient(135deg, #aecde9 0%, #cce6ff 50%, #99ceff 100%); */
