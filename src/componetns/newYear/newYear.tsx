@@ -68,7 +68,7 @@ const NewYear: React.FC = () => {
     <canvas
       ref={canvasRef}
       style={{
-        position: 'fixed',
+        position: 'absolute',
         top: 0,
         left: 0,
         width: '100%',
