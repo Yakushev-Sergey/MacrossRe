@@ -1,10 +1,8 @@
 
 
 import React, { useEffect, useState } from 'react'
-// import taxiImg from './paw2.png'
-import taxiImgCrow from './gift.png'
+import taxiImgCrow from '../img/puddle.png'
 import './taxi.css'
-// import TimerHTML from '../timerInput/timerHtml'
 
 
 const Taxi: React.FC = () => {

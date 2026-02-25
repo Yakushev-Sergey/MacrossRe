@@ -1,8 +1,7 @@
 
 import { useState } from 'react';
 import './card.css'
-// import cardImg from './paw.png';
-import cardImgCrow from './елка .png';
+import cardImgCrow from '../img/cloud.png';
 
 type CardsProps = {
   description: string;

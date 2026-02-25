@@ -77,6 +77,10 @@ const Menu: React.FC = () => {
                 <a href="https://jira.sbmt.io/servicedesk/customer/portal/20/create/867" target="_blank"
                   className="menu__link">Jira Для оплаты Такси </a>
               </li>
+              <li className="menu__item">
+                <a href="https://metabase.sbmt.io/question/69721-login-po-uuid" target="_blank"
+                  className="menu__link">Login uuid </a>
+              </li>
             </ul>
           </div>
         </div>
