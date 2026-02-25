@@ -1,7 +1,7 @@
 // import BtnMenu from "./componetns/btnMenu/btnMenu"
 import Cards from "./componetns/cards/card"
 import Menu from "./componetns/menu/menu"
-import Stars from "./componetns/newStar/newStar"
+// import Stars from "./componetns/newStar/newStar"
 // import NewYear from "./componetns/newYear/newYear"
 import Taxi from "./componetns/taxi/taxi"
 import { TextScript } from './text'
