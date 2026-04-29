@@ -1,7 +1,7 @@
 
 
 import React, { useEffect, useState } from 'react'
-import taxiImgCrow from '../img/puddle.png'
+import taxiImgCrow from '../img/lap.png'
 import './taxi.css'
 
 
@@ -70,8 +70,6 @@ const Taxi: React.FC = () => {
   return (
     <>
       {taxiLink}
-      
-      
     </>
 
   )
