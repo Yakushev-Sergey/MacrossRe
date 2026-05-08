@@ -26,7 +26,7 @@ body {
   color: var(--color-text);
   object-fit: cover;
   background-repeat: no-repeat;
-  background-image: url('./componetns/img/cart.jpg');
+  background-image: url('./componetns/img/images.png');
   /* background-image: radial-gradient(circle at 20% 20%, rgba(255, 255, 210, 0.7) 0%, transparent 35%),
     radial-gradient(circle at 90% 80%, rgba(210, 245, 210, 0.6) 0%, transparent 30%),
     linear-gradient(180deg,
