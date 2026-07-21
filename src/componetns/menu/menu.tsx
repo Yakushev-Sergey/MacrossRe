@@ -39,6 +39,10 @@ const Menu: React.FC = () => {
                 <a href="https://metabase.sbmt.io/question/93605-ruchnye-vmeshatel-stva-v-re?workflow_id=&date=&date2="
                   target="_blank" rel='noopener noreferrer' className="menu__link">Вмешательства в рейс </a>
               </li>
+              <li className="menu__item">
+                <a href="https://metabase.sbmt.io/question/119547-statusy-rejsov-naznachenij-planovoj-dostavki-lite?workflow_id=&workflow_status=&store_uuid="
+                  target="_blank" rel='noopener noreferrer' className="menu__link">Статусы рейсов </a>
+              </li>
             </ul>
           </div>
           <div className="block">
