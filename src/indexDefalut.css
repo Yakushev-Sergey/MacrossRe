@@ -14,8 +14,8 @@ img {
 }
 
 :root {
-  --color-title: #102360;
-  --color-text: #000;
+  --color-title: #000000cc;
+  --color-text: #b2b2b2e0;
 }
 
 body {
@@ -26,15 +26,7 @@ body {
   color: var(--color-text);
   object-fit: cover;
   background-repeat: no-repeat;
-  background-image: url('./componetns/img/images.png');
-  /* background-image: radial-gradient(circle at 20% 20%, rgba(255, 255, 210, 0.7) 0%, transparent 35%),
-    radial-gradient(circle at 90% 80%, rgba(210, 245, 210, 0.6) 0%, transparent 30%),
-    linear-gradient(180deg,
-      #87CEEB 0%,
-      #9fd9a4 45%,
-      #6b8e4c 80%,
-      #5d4a36 100%); */
-
+  background-image: url('./componetns/img/001.jpg');
 }
 
 

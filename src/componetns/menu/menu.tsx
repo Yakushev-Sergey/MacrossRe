@@ -51,12 +51,20 @@ const Menu: React.FC = () => {
             </div>
             <ul className="menu__list">
               <li className="menu__item">
-                <a href="https://metabase.sbmt.io/question/41215-avtoprinyatie-offerov-partnero?id=1088046" target="_blank" rel='noopener noreferrer' 
-                className="menu__link">Автопринятие офферов партнером</a>
+                <a href="https://metabase.sbmt.io/question/41215-avtoprinyatie-offerov-partnero?id=1088046" target="_blank" rel='noopener noreferrer'
+                  className="menu__link">Автопринятие офферов партнером</a>
               </li>
               <li className="menu__item">
                 <a href="https://metabase.sbmt.io/question/31950-naznacheniya-i" target="_blank" rel='noopener noreferrer'
                   className="menu__link">Назначения и МЛ</a>
+              </li>
+              <li className="menu__item">
+                <a href="ttps://metabase.sbmt.io/question/97996-zvonki-partnerov-po-zakazam-operacii?zakaz=&phone=" target="_blank" rel='noopener noreferrer'
+                  className="menu__link">Звонки Клиентам </a>
+              </li>
+              <li className="menu__item">
+                <a href="https://fuel-pulse.duckdns.org/?group=Все&cities=&fuel=overall&from=2026-08-03&to=2026-09-01&grain=week&view=cuts&chart=availability&table=city" target="_blank" rel='noopener noreferrer'
+                  className="menu__link">Бензин по городам </a>
               </li>
             </ul>
           </div>
@@ -70,12 +78,8 @@ const Menu: React.FC = () => {
                   className="menu__link">Отчет статистики для логиста </a>
               </li>
               <li className="menu__item">
-                <a href="https://metabase.sbmt.io/question/97005-statusy-logistov-real-tajm?date=2026-01-05&date2=2026-01-05&name= (https://metabase.sbmt.io/question/97005-statusy-logistov-real-tajm?date=2026-01-05&date2=2026-01-05&name=%D0%9B%D0%B8%D1%82%D0%B2%D0%B8%D0%BD%D0%B5%D0%BD%D0%BA%D0%BE%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B0)" rel='noopener noreferrer'  target="_blank"
+                <a href="https://metabase.sbmt.io/question/97005-statusy-logistov-real-tajm?date=2026-01-05&date2=2026-01-05&name= (https://metabase.sbmt.io/question/97005-statusy-logistov-real-tajm?date=2026-01-05&date2=2026-01-05&name=%D0%9B%D0%B8%D1%82%D0%B2%D0%B8%D0%BD%D0%B5%D0%BD%D0%BA%D0%BE%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B0)" rel='noopener noreferrer' target="_blank"
                   className="menu__link">Время нахождение в статусах </a>
-              </li>
-              <li className="menu__item">
-                <a href=" https://metabase.sbmt.io/question/97500-statusy-logistov-i-kol-vo-zayavok-s-granulyaci?date=2026-01-05&date2=2026-01-05&name=&gran=day " rel='noopener noreferrer' target="_blank"
-                  className="menu__link">Время нахождение в статусах диаграмма </a>
               </li>
               <li className="menu__item">
                 <a href="https://jira.sbmt.io/servicedesk/customer/portal/20/create/867" target="_blank" rel='noopener noreferrer'
@@ -84,6 +88,10 @@ const Menu: React.FC = () => {
               <li className="menu__item">
                 <a href="https://metabase.sbmt.io/question/69721-login-po-uuid" target="_blank" rel='noopener noreferrer'
                   className="menu__link">Login uuid </a>
+              </li>
+              <li className="menu__item">
+                <a href="https://docs.google.com/spreadsheets/d/1kHOn3rR4uLlnppEX8IlLGznOVeWA9gFR/edit?11BCC18A-CD0C-43B1-AF9B-AB45E916773C_kes_cup_C6FA3ED5_6D17_47D1_B6E2_F4B02CC905E0_=&gid=1563073822#gid=1563073822" rel='noopener noreferrer' target="_blank"
+                  className="menu__link">График </a>
               </li>
             </ul>
           </div>
