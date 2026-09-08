@@ -59,7 +59,7 @@ const Menu: React.FC = () => {
                   className="menu__link">Назначения и МЛ</a>
               </li>
               <li className="menu__item">
-                <a href="ttps://metabase.sbmt.io/question/97996-zvonki-partnerov-po-zakazam-operacii?zakaz=&phone=" target="_blank" rel='noopener noreferrer'
+                <a href="https://metabase.sbmt.io/question/97996-zvonki-partnerov-po-zakazam-operacii?zakaz=&phone=" target="_blank" rel='noopener noreferrer'
                   className="menu__link">Звонки Клиентам </a>
               </li>
               <li className="menu__item">
